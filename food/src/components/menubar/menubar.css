@@ -1,0 +1,10 @@
+
+.menubar-rigth {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+  .active {
+    color: tomato !important;
+}
+
