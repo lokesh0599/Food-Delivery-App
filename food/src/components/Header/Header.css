@@ -1,0 +1,10 @@
+.background-container{
+    background-image: url("../../assets/backg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: center;
+    height: 45vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
