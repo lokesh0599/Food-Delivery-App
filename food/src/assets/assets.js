@@ -6,14 +6,18 @@ import biryani from './biryani.webp';
 import burger from './burger.webp';
 import cakes from './cakes.png';
 import icecreame from './icecreame.webp';
-import rolls from './rolls.png';
+import rolls from './roll.png';
 import saled from './saled.png';
-import pizza from './pizaa.webp';
+import pizza from './pizza.png';
+import login from './login.jpg';
+import back from './backg.jpg'
 export const assets ={
     logo,
     parcel,
     upload,
-    cart
+    cart,
+    login,
+    back
 };
 export const categories =[
     {
