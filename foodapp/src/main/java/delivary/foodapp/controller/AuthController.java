@@ -23,6 +23,7 @@ public class AuthController {
     private  final AuthenticationManager authenticationManager;
     private final AppUserDetailsService userDetailsService;
     private final JwtUtil jwtUtil;
+
     @PostMapping("/login")
     public AuthenticationResponse login(@RequestBody AuthenticationRequest request){
        authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(request.getEmail(), request.getPassword()));

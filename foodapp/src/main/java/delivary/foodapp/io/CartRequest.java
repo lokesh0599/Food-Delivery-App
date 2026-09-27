@@ -12,7 +12,6 @@ import java.util.Map;
 @NoArgsConstructor
 @Builder
 public class CartRequest {
-    private String userId;
-    private Map<String, Integer> items =new HashMap<>();
+    private String foodId;
 
 }

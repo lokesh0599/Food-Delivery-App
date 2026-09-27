@@ -1,6 +1,4 @@
 package delivary.foodapp.filters;
-
-import ch.qos.logback.core.util.StringUtil;
 import delivary.foodapp.Util.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

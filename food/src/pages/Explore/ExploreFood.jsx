@@ -14,9 +14,9 @@ const ExploreFood = () => {
               <select className='form-select mt-2' style={{'maxWidth': '150px'}} onChange={(e) => setCategory(e.target.value)}>
                 <option value="All">All</option>
                 <option value="Biryani">Biryani</option>
-                <option value="Burgerr">Burger</option>
-                <option value="Cakes">Cakes</option>
-                <option value="Ice Creams">Ice Creams</option>
+                <option value="Burger">Burger</option>
+                <option value="Cake">Cake</option>
+                <option value="Ice cream">Ice Cream</option>
                 <option value="Pizza">Pizza</option>
                 <option value="Rolls">Rolls</option>
                 <option value="Salad">Salad</option>

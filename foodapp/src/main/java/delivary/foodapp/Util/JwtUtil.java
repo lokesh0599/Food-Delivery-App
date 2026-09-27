@@ -15,7 +15,7 @@ import java.util.function.Function;
 @Component
 public class JwtUtil {
 
-    public static final String SECRET_KEY ="MySuperSecreteKey123453129v51234yfufuy747995555";
+    public static final String SECRET_KEY ="MySuperSecreteKey12345#129v51234yfufuy";
 
     public String generateToken(UserDetails userDetails){
         Map<String, Object> claims = new HashMap<>();
@@ -50,7 +50,7 @@ public class JwtUtil {
 
     private Claims extractAllClaims(String token){
         return Jwts.parser()
-                .setSigningKey(SECRET_KEY)
+                .setSigningKey(getSignedKey())
                 .parseClaimsJws(token)
                 .getBody();
 
