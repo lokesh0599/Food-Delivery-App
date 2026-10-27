@@ -246,7 +246,6 @@ Lokesh Rajput
 
 Java Backend Developer | Spring Boot | REST APIs | Spring Security | MongoDB | React.js | AWS
 
-⭐ If you find this project interesting, consider giving the repository a star!
 ---
 
-⭐ If you find this project interesting, consider giving the
+⭐ If you find this project interesting, consider giving the repository a star!
